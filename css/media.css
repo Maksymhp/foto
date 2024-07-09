@@ -1,0 +1,570 @@
+@media (max-width:1206px) {
+
+    .we-are {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .we-are__info {
+        margin: 0 auto;
+        max-width: 1157px;
+    }
+
+    .we-are__foto-one {
+        margin-left: -66%; /* 100/150 */
+    }
+
+    .we-are__figure {
+        margin-left: -120%;
+    }
+
+    .we-are__foto-two {
+        margin-left: -150%;
+    }
+
+    .we-are__text-two {
+        margin-left: -210%;
+    }
+
+
+    .latest-works__info {
+        margin-top: 360px;
+    }
+
+    .latest-works__about {
+        transform: translateY(0%);
+    }
+
+
+    .latest-works__info {
+        column-gap: 50px;
+    }
+
+    .latest-works__top-right {
+        margin-top: -60%;
+    }
+
+    .latest-works__title {
+        right: -10%;
+    }
+
+    .latest-works__top-right-title {
+        left: -5%;
+    }
+
+
+    .the-team__block {
+        justify-content: space-between;
+    }
+    .the-team__img {
+        max-width: 300px;
+    }
+
+    .the-team__item:hover .the-team__information-hover {
+        height: 40%;
+        width: 100%;
+    }
+}
+
+@media (max-width:996px) {
+    .we-are__foto-one {
+        margin-left: -80%; /* 100/150 */
+    }
+
+    .we-are__figure {
+        margin-left: -150%;
+    }
+
+    .we-are__foto-two {
+        margin-left: -190%;
+    }
+
+    .we-are__text-two {
+        margin-left: -270%;
+    }
+
+    .latest-works__info {
+        row-gap: 25px;
+        margin-bottom: 50px;
+    }
+
+    .latest-works__img {
+        max-width: 100%;
+    }
+
+    .latest-works__title{
+        font-size: 35px;
+        right: 3%;
+    }
+
+    .latest-works__top-right-title {
+        left: 2%;
+    }
+
+    .latest-works__item-bottom {
+        padding-left: 20px;
+
+        padding-right: 20px;
+    }
+
+    .latest-works__item-text {
+        max-width: 300px;
+    }
+
+    .latest-works__item-bottom-right{
+        float: right;
+    }
+
+    .the-team {
+        margin: 0;
+        padding: 80px 0 30px;
+    }
+
+    .the-team__block {
+        justify-content: center;
+    }
+
+    .the-team__img {
+        max-width: 250px;
+    }
+
+    .responce__information {
+        padding-bottom: 100px;
+    }
+
+    .contacts__item {
+        padding: 50px 0 50px;
+    }
+}
+
+@media (max-width:835px) {
+    .we-are__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .we-are__block {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .we-are__figure {
+        z-index: -5;
+        margin-left: -119%;
+        margin-top: 40px;
+    }
+
+    .we-are__foto-one {
+        margin-left: -80%;
+        width: 260px;
+    }
+    .we-are__foto-two {
+        margin-left: -210%;
+        width: 260px;
+    }
+
+    .we-are__text-two {
+        margin-top: -25%;
+        margin-left: 100%;
+    }
+
+    .our-services__information {
+        padding: 60px 0;
+    }
+
+    .latest-works__info {
+        margin-top: 270px;
+    }
+
+
+
+    .the-team__block {
+        padding-bottom: 40px;
+    }
+
+    .responce__information {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width:700px) {
+    .menu {
+        padding-top: 40px;
+    }
+
+    .menu__btn {
+        width: 50px;
+        height: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .menu__btn span {
+        display: flex;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 30px 0;
+        top: 0;
+        left: 0;
+        background-color: black;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(-150%);
+        transition: .3s;
+    }
+
+    .menu__list--active {
+        display: flex;
+        transform: translateY(0%);
+    }
+
+    .menu__item {
+        font-size: 30px;
+    }
+
+    .header__top {
+        padding-top: 120px;
+        margin-top: 0;
+    }
+
+    .header__inner {
+        min-height: 600px;
+    }
+
+
+    .we-are__block {
+        margin-top: 0;
+        margin-bottom: 70px;
+    }
+
+    .we-are__figure {
+        margin-left: -135%;
+    }
+
+    .we-are__foto-one {
+        
+    }
+    .we-are__foto-two {
+        margin-top: 100%;
+        margin-left: -270%;
+    }
+
+    .we-are__text-two {
+        margin-top: -15%;
+        margin-left: 50%;
+    }
+
+
+    .latest-works__info {
+        column-gap: 20px;
+    }
+    .latest-works__title{
+        font-size: 30px;
+    }
+
+    .latest-works__item-text {
+        padding: 10px 0;
+    }
+
+    .contacts__item {
+        padding: 30px 0 ;
+    }
+
+    .contacts__title {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .latest-works__information {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .latest-works__about {
+        margin-top: 70px;
+    }
+
+    .latest-works__menu {
+        margin-top: 0;
+    }
+
+
+    .latest-works__info {
+        display: block;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .latest-works__item {
+        margin-top: 50px;
+    }
+
+    .latest-works__item-apple {
+        /* margin-top:135px; */
+    }
+
+    .latest-works__item-bottom {
+        margin-top: 15px;
+    }
+
+    .latest-works__top-right {
+        margin-top: 0;
+    }
+
+    .latest-works__title {
+        left: 0;
+        bottom: 15px;
+        font-size: 37px;
+        margin: 0 auto;
+    }
+
+    .latest-works__top-right-title {
+        left: 0;
+    }
+    
+
+    .latest-works__info {
+        text-align: center;
+    }
+    
+    .latest-works__item-bottom-right {
+        float: none;
+        text-align: center;
+    }
+
+
+    .latest-works__button {
+        width: 75px;
+        margin: 145px auto 0;
+    }
+
+    .latest-works__button {
+        margin-top: 40px;
+    }
+
+    .view-more {
+        position: static;
+    }
+
+    .the-team {
+        margin-top: 100px;
+        padding: 40px 0 40px;
+    }
+
+    .the-team__block {
+        padding: 0;
+    }
+    
+    .the-team__img {
+        max-width: 200px;
+    }
+
+
+    .the-team__item:hover .the-team__information-hover {
+        height: 100%;
+        opacity: .7;
+    }
+
+    .the-team__text {
+        text-align: center;
+    }
+
+    .responce__information {
+        margin-top: 40px;
+        padding-bottom: 0;
+    }
+
+    .response__line {
+        width: 90%;
+    }
+
+    .contacts__block {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .contacts__title {
+        padding: 10px 0;
+    }
+
+    .footer__item {
+        padding: 70px 0 60px;
+    }
+}
+
+@media (max-width:505px) {
+    .header__top-title {
+        font-size: 60px;
+    }
+
+    .header__top-text  {
+        font-size: 17px;
+        padding-top: 40px;
+    }
+
+    .we-are__figure {
+        margin-left: -165%;
+    }
+
+    .we-are__foto-two {
+        margin-left: -295%;
+    }
+
+    .we-are__text-two {
+        margin-left: 15%;
+    }
+
+    .latest-works__item:first-child {
+        margin-top: 0;
+    }
+
+    .latest-works__menu {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .latest-works__item {
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width:396px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__top-title {
+        line-height: 80px;
+    }
+
+    .header__top-text {
+        padding-top: 80px;
+    }
+
+    .we-are__foto-one {
+        max-width: 240px;
+        margin-left: -120%;
+    }
+
+    .we-are__figure {
+        margin-left: -180%;
+    }
+
+    .we-are__foto-two {
+        width: 240px;
+        margin-left: -349%;
+        margin-top: 138%;
+    }
+
+    .we-are__text {
+        color: #000;
+    }
+
+    .our-services__item {
+        padding: 0;
+    }
+
+    
+
+    .latest-works__item {
+        
+    }
+    
+    .latest-works__item:last-child {
+        
+    }
+
+    .latest-works__title {
+        font-size: 25px;
+    }
+    .latest-works__item-bottom {
+        text-align: center;
+        padding: 0;
+    }
+
+    .latest-works__item-title {
+        font-size: 15px;
+    }
+
+    .latest-works__item-text {
+        max-width: 100%;
+        font-size: 11px;
+    }
+
+
+    .latest-works__item-bottom-right {
+        text-align: center;
+    }
+
+    .latest-works__item-apple {
+        margin-top: 30px;
+    }
+
+    .response__text {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .contacts__item {
+        padding: 20px 0;
+    }
+
+    .contacts__title {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:340px) {
+
+    .header__top-title {
+        font-size: 50px;
+    }
+
+    .header__top-text {
+        padding-top: 80px;
+    }
+
+    .we-are__subtitle {
+        font-size: 30px;
+    }
+    .we-are__figure {
+        margin-left: -200%;
+    }
+
+    .we-are__text {
+        /* max-width: 20px; */
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 15px ;
+        margin-left: 5px;
+        /* max-width: 150px; */
+    }
+
+    .we-are__text::before {
+        content: none;
+    }
+
+    .we-are__foto-two {
+        margin-top: 105%;
+    }
+}
